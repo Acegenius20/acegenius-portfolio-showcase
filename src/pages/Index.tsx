@@ -9,6 +9,7 @@ import Interests from '../components/Interests';
 import Languages from '../components/Languages';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import ChatBot from '../components/ChatBot';
 
 const Index = () => {
   useEffect(() => {
@@ -27,6 +28,7 @@ const Index = () => {
       <Languages />
       <Contact />
       <Footer />
+      <ChatBot />
     </div>
   );
 };
